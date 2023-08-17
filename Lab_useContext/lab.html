@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="report"></div>
+
+    <script>
+
+        var a = 100;
+
+        var b = 200;
+
+        var obj = {
+
+            a: a,
+
+            b: b
+
+        }
+
+        // #3344ff  #34f
+
+        report.innerText = `a: ${obj.a}, b: ${obj.b}`;
+
+
+        var a = 1000;
+
+        var b = 2000;
+
+        var obj = { a, b }
+
+        report.innerText = `a: ${obj.a}, b: ${obj.b}`;
+
+
+        var a = 1000;
+
+        var b = function () { alert('OK') };
+
+        var obj = { a, b }
+
+        obj.b();
+    </script>
+</body>
+
+</html>
